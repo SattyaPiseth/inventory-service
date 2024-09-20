@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: inventory-service
+  datasource:
+    url: jdbc:postgresql://localhost:4445/inventory-service
+    username: pisethsattya
+    password: microservice
+  jpa:
+    hibernate:
+      ddl-auto: none
+server:
+  port: 8082
